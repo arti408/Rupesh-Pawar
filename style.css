@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.size{
+    width: 80vw;
+    margin: 30px auto;
+}
+
+.home{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.home h1{
+    text-align: center;
+    color: maroon;
+    margin-top: 30px;
+}
+
+.first-block{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.missionpara1{
+    width: 100%;
+    margin-right: 3vw;
+}
+.missionpara2{
+    width: 100%;
+    margin-left: 3vw;
+    
+}
+.missionimg img{
+    width: 100%;
+}
+.missionpara1 p{
+    font-size: 17px;
+}
+.missionpara2 p{
+    font-size: 17px;
+}
+
+.last{
+    text-align: center;
+}
+#p1{
+    font-weight: 700;
+}
+#p2{
+    font-weight: 700;
+    color: green;
+    margin-top: -18px;
+}
+
+@media screen and (max-width: 768px) {
+    .first-block{
+        display: inline;
+        align-items: center;
+        margin: 30px 0;
+    }
+   .missionimg{
+    margin: 30px 0;
+   }
+   .last{
+    margin-top: 30px;
+   }
+   #p2{
+    margin-top: 10px;
+   }
+}
