@@ -1,6 +1,8 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .size{
     width: 80vw;
@@ -54,6 +56,47 @@
     margin-top: -18px;
 }
 
+.aboutus{
+    width: 80vw;
+    margin: 50px auto;
+}
+.firstabout{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.firstabout h1{
+    color: maroon;
+}
+.firstabout p{
+    width: 70%;
+    margin: 10px auto;
+    font-size: 17px;
+}
+
+.secondabout{
+    margin-top: 30px;
+}
+
+.secondabout h2{
+    margin-top: 20px;
+    color: maroon;
+    font-weight: 700;
+}
+.secondabout p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.secondabout h4{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.services{
+    margin-bottom: 30px;
+}
+.impact{
+    margin-bottom: 30px;
+}
 @media screen and (max-width: 768px) {
     .first-block{
         display: inline;
@@ -69,4 +112,7 @@
    #p2{
     margin-top: 10px;
    }
+   .firstabout p{
+    width: 100%;
+}
 }
